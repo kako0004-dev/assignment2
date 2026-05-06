@@ -7,4 +7,13 @@ editor: visual
 These current chnages are made  in the main branch and the testbranch text is not shown currently.
 
 The file after merging the testbranch with the main branch.
+```{r}
+df <- read.csv("data/36749257_Kishori Akola.csv")
 
+# Create a simple histogram
+hist(df$purchase_amount, 
+     main="Distribution of Purchase Amounts", 
+     xlab="Amount ($)", 
+     col="skyblue")
+
+```
